@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ian Ndambuki Ndumia | About</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Modern and Responsive Navbar Styles */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #121212;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav h1 {
+      font-size: 1.8rem;
+      color: #ffffff;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      margin: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #cccccc;
+      font-weight: 500;
+      padding: 0.5rem 0;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+   
+    nav ul li a:hover::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background-color: #00e1ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Ian Ndumia</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Interests</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="about-section">
+    <section class="bio">
+      <h2>About Me</h2>
+      <p>
+        I’m Ian Ndambuki Ndumia, a passionate software engineer driven by innovation and purpose.
+        With a foundation in JavaScript, Python, HTML, CSS, Django, and Node.js, I specialize in building dynamic, scalable, and human-centered digital experiences.
+      </p>
+      <p>
+        I hold a Diploma in Software Engineering and am pursuing a Bachelor’s in Computer Science. Beyond the code, I’m fascinated by Artificial Intelligence, Machine Learning,
+        and Cybersecurity. I also enjoy deep-diving into thought-provoking books that expand the mind and fuel creativity.
+      </p>
+      <p>
+        My journey is one of learning, building, and evolving — and I’m excited to collaborate, contribute, and create solutions that matter.
+      </p>
+
+      <a href="carriculumVitae/Ian_Ndumia_CV.pdf" class="btn" download>📄 Download My CV</a>
+    </section>
+
+    <section class="skills">
+      <h3>Tech Stack</h3>
+      <ul class="skill-tags">
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Django</li>
+        <li>Node.js</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ian Ndambuki Ndumia</p>
+  </footer>
+</body>
+</html>
