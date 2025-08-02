@@ -4,39 +4,36 @@ Welcome to my personal developer portfolio — a showcase of who I am, what I do
 
 ## 👨‍💻 About Me
 
-I'm a passionate software engineer with a strong foundation in both frontend and backend development. I specialize in building full-stack web applications using modern technologies such as:
+I'm a passionate software engineer with a strong foundation in frontend and backend development. I specialize in building full-stack applications using:
 
-- **Languages**: JavaScript, Python, HTML5, CSS3
-- **Frameworks & Libraries**: Django, Node.js
-- **Other Interests**: AI & Machine Learning, Cybersecurity, Reading Tech & Self-Development Books
+- **Languages**: JavaScript, Python, HTML5, CSS3  
+- **Frameworks**: Django, Node.js  
+- **Interests**: AI & Machine Learning, Cybersecurity, Reading
 
 ---
 
 ## 🚀 Features
 
-✅ Responsive, modern design  
-✅ Interactive project showcase  
-✅ CV/Resume download button  
+✅ Clean, responsive design  
+✅ Simple, semantic HTML & CSS only  
+✅ Downloadable CV button  
+✅ Easy to navigate  
 ✅ Fully mobile-friendly  
-✅ Contact section with form  
-✅ Clean and semantic codebase
 
 ---
 
-## 📂 Folder Structure
+## 📁 Folder Structure
 
 ```bash
 myPortfolio/
-├── index.html
-├── about.html
-├── projects.html
-├── contact.html
+├── index.html             # Home page
+├── about.html             # About Me section
+├── projects.html          # Portfolio/projects showcase
+├── contact.html           # Contact form and details
 ├── assets/
 │   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
+│   │   └── style.css      # Global CSS file
 │   ├── images/
-│   │   └── ...
+│   │   └── ...            # Images used in the portfolio
 │   └── pdf/
-│       └── Ian_Ndumia_CV.pdf
+│       └── Ian_Ndumia_CV.pdf  # Downloadable CV
